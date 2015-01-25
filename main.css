@@ -1,0 +1,207 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+}
+#messages{
+  float: top;
+  font-size: 15px;
+  color: yellow;
+  margin-top: -40px;
+}
+#mainScreen{
+  color: white;
+  width: 750px;
+  height: 450px;
+  vertical-align: center;
+  margin-top: 50px;
+  position: relative;
+  background-image: url('images/blackbox.jpeg');
+  border-radius: 25px;
+  opacity: 0.7;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+#leftHead{
+  float: top;
+  width: 310px;
+  border-bottom: 8px solid white;
+  border-radius: -10px;
+}
+#rightHead{
+  float: top;
+  float: left;
+  width: 200px;
+  margin-top: -9px;
+  padding-left: 20px;
+}
+#results{
+  color: white;
+  font: 40px;
+}
+.availablePlayers {
+  height: 320px;
+  width: 300px;
+  overflow: auto;
+  float: left;
+  position: static;
+  border-width: 5px;
+  border-style: solid;
+  padding-right: 0px;
+  -webkit-border-image:
+  -webkit-gradient(linear, 0 0, 0 100%, from(white), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image:
+  -webkit-linear-gradient(white, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image: -moz-linear-gradient(white, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image: -o-linear-gradient(white, rgba(0, 0, 0, 0)) 1 100%;
+  border-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0)) 1 100%;
+}
+.selectedPlayers {
+  height: 400 px;
+  width: 350px;
+  float: left;
+  position: static;
+  padding-right: 50px;
+}
+#rosterTable0{
+  float: right;
+}
+#rosterTable0  td{
+  table-layout: fixed;
+  height:30px;
+  padding-top: 10px;
+  border-spacing: 10px;
+  height:30px;
+  border: 1px dotted gray;
+  text-align: left;
+}
+#rosterTable{
+  float: left;
+}
+#rosterTable  td{
+  table-layout: fixed;
+  height:30px;
+  padding-top: 10px;
+  border-spacing: 10px;
+  height:30px;
+  border: 1px dotted gray;
+  text-align: left;
+}
+#rosterTable2{
+  float: right;
+}
+#rosterTable2 td{
+  table-layout: fixed;
+  height:30px;
+  padding-top: 10px;
+  border-spacing: 10px;
+  height:30px;
+  border: 1px dotted gray;
+  text-align: left;
+}
+#playerTable td{
+  table-layout: fixed;
+  height:30px;
+  padding-top: 10px;
+  border-spacing: 10px;
+  table-layout: fixed;
+  height:30px;
+}
+input#submit{
+  background:url('images/addarrow.png');
+  background-repeat: no-repeat;
+  width:30px;
+  height:30px;
+  border: none;
+  cursor: pointer;
+}
+input#remove{
+  background:url('images/remove.png');
+  background-repeat: no-repeat;
+  width:30px;
+  height:30px;
+  border: none;
+  cursor: pointer;
+}
+input#goRoto{
+  background:url('images/ready.png');
+  background-repeat: no-repeat;
+  width:181px;
+  height:50px;
+  border: none;
+  cursor: pointer;
+}
+input#play_again{
+  background:url('images/playAgain.gif');
+  background-repeat: no-repeat;
+  width:181px;
+  height:50px;
+  border: none;
+  cursor: pointer;
+}
+#get_Scores{
+  background:url('images/play.gif');
+  background-repeat: no-repeat;
+  width:100px;
+  height:38px;
+  border: none;
+  cursor: pointer;
+  margin-top: 150px;
+  margin-left: 40px;
+  float: center;
+}
+#wrapper {
+  min-height:100%;
+  position:relative;
+  background: url('images/field.jpg')no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+#header {
+  padding:3em;
+  background:black;
+  width: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  background: url('images/stadiumlights.png');
+}
+.logo{
+  font-size: 100px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  float: left;
+  background: url('images/logo.png')no-repeat;
+  width:350px;
+  margin-top: -50px;
+}
+.nav{
+  float: right;
+  position: static;
+  padding: .5em;
+  margin-top: 35px;
+}
+#link{
+  color:white;
+  display: inline;
+  padding: .5em;
+  border: 1px solid white;
+}
+#footer{
+  color:black;
+  background: url('images/footer-crowd.png') no-repeat;
+  width:100%;
+  height:450px;
+  position:relative;
+  left: 0px;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.copyright{
+  float: right;
+  color: white;
+  margin-top: 125px;
+}
