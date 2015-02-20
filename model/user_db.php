@@ -1,4 +1,5 @@
-<?php
+<?php //db connect
+
 
 function get_credentials($username) {
     global $db;
